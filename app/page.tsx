@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Steps from "@/components/Steps";
+import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
       <Features/>
       <Steps/>
       <About/>
+      <Testimonials/>
       <Footer/>
     </div>
   );
